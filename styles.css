@@ -1,9 +1,25 @@
+body {
+    background-color:#3E4E50;
+}
+
+
 header {
+    display:block;
+    background-color:#333;
+    color: white;
+    width:1200px;
+    margin:auto;
+    margin-bottom: 5px;
+    padding: 5px;
     text-align:center;
+
+
+    
 }
 nav ul{
     margin:0;
     list-style:none;
+    padding: 10px;
 } 
 
 
@@ -15,7 +31,15 @@ a {
     text-decoration:none;
 }
 
-
+section {
+    display: block;
+    background-color:white;
+    width:1200px;
+    text-align:center;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
 main {
     display:block;
     background-color: grey;
@@ -24,5 +48,25 @@ main {
     margin: auto;
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 4%
 }
+
+footer {
+    text-align:center;
+    color: white;
+    background-color:#333;
+    width:1200px;
+    margin:auto;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+
+@media only screen and (max-width: 1200px) {
+		
+}
+@media only screen and (max-height: 750px) {
+	
+}	
+
+
