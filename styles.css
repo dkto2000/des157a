@@ -1,0 +1,28 @@
+header {
+    text-align:center;
+}
+nav ul{
+    margin:0;
+    list-style:none;
+} 
+
+
+h2{
+    text-align:center;
+}
+        
+a {    
+    text-decoration:none;
+}
+
+
+main {
+    display:block;
+    background-color: grey;
+    width: 750px;
+    padding: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
