@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 1</title>
+</head>
+
+<header>
+  <h1> Experiment 1</h1>
+</header>
+<body>
+  <h2> Please Open Your Console to View Code</h2>
+
+  <script>
+    /*This is my attempt to write a program that prints all the numbers from 1 to 100, with the exception of any number divisble by 3 and 5. I wrote an if/else if/else statement that makes it so everytime there is a number divisible by three or five, a word (BUZZ or FIZZ) is printed out instead. */
+ for(var i = 1; i <= 100; i++){
+ 
+
+ var threecheck= i % 3;
+ var fivecheck= i % 5;
+ 
+   if(threecheck == 0)
+ {
+   console.log("Fizz");
+ }   
+   else if(fivecheck == 0)
+   {
+     console.log("Buzz");
+   }
+   else {
+     console.log(i);
+   }
+ }
+  </script>
+ 
+</body>
+</html>
